@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F190550291E6B28006532B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19054F291E6B28006532B6 /* AppDelegate.swift */; };
+		5F190552291E6B28006532B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F190551291E6B28006532B6 /* SceneDelegate.swift */; };
+		5F190554291E6B28006532B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F190553291E6B28006532B6 /* ViewController.swift */; };
+		5F190557291E6B28006532B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F190555291E6B28006532B6 /* Main.storyboard */; };
+		5F190559291E6B29006532B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F190558291E6B29006532B6 /* Assets.xcassets */; };
+		5F19055C291E6B29006532B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F19055A291E6B29006532B6 /* LaunchScreen.storyboard */; };
+		5F190567291E6B29006532B6 /* SendbirdAppCenterSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F190566291E6B29006532B6 /* SendbirdAppCenterSampleTests.swift */; };
+		5F190571291E6B29006532B6 /* SendbirdAppCenterSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F190570291E6B29006532B6 /* SendbirdAppCenterSampleUITests.swift */; };
+		5F190573291E6B29006532B6 /* SendbirdAppCenterSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F190572291E6B29006532B6 /* SendbirdAppCenterSampleUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F190563291E6B29006532B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F190544291E6B28006532B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F19054B291E6B28006532B6;
+			remoteInfo = SendbirdAppCenterSample;
+		};
+		5F19056D291E6B29006532B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F190544291E6B28006532B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F19054B291E6B28006532B6;
+			remoteInfo = SendbirdAppCenterSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F19054C291E6B28006532B6 /* SendbirdAppCenterSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SendbirdAppCenterSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F19054F291E6B28006532B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5F190551291E6B28006532B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5F190553291E6B28006532B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5F190556291E6B28006532B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F190558291E6B29006532B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F19055B291E6B29006532B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F19055D291E6B29006532B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F190562291E6B29006532B6 /* SendbirdAppCenterSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SendbirdAppCenterSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F190566291E6B29006532B6 /* SendbirdAppCenterSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendbirdAppCenterSampleTests.swift; sourceTree = "<group>"; };
+		5F19056C291E6B29006532B6 /* SendbirdAppCenterSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SendbirdAppCenterSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F190570291E6B29006532B6 /* SendbirdAppCenterSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendbirdAppCenterSampleUITests.swift; sourceTree = "<group>"; };
+		5F190572291E6B29006532B6 /* SendbirdAppCenterSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendbirdAppCenterSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F190549291E6B28006532B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F19055F291E6B29006532B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F190569291E6B29006532B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F190543291E6B28006532B6 = {
+			isa = PBXGroup;
+			children = (
+				5F19054E291E6B28006532B6 /* SendbirdAppCenterSample */,
+				5F190565291E6B29006532B6 /* SendbirdAppCenterSampleTests */,
+				5F19056F291E6B29006532B6 /* SendbirdAppCenterSampleUITests */,
+				5F19054D291E6B28006532B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F19054D291E6B28006532B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F19054C291E6B28006532B6 /* SendbirdAppCenterSample.app */,
+				5F190562291E6B29006532B6 /* SendbirdAppCenterSampleTests.xctest */,
+				5F19056C291E6B29006532B6 /* SendbirdAppCenterSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F19054E291E6B28006532B6 /* SendbirdAppCenterSample */ = {
+			isa = PBXGroup;
+			children = (
+				5F19054F291E6B28006532B6 /* AppDelegate.swift */,
+				5F190551291E6B28006532B6 /* SceneDelegate.swift */,
+				5F190553291E6B28006532B6 /* ViewController.swift */,
+				5F190555291E6B28006532B6 /* Main.storyboard */,
+				5F190558291E6B29006532B6 /* Assets.xcassets */,
+				5F19055A291E6B29006532B6 /* LaunchScreen.storyboard */,
+				5F19055D291E6B29006532B6 /* Info.plist */,
+			);
+			path = SendbirdAppCenterSample;
+			sourceTree = "<group>";
+		};
+		5F190565291E6B29006532B6 /* SendbirdAppCenterSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F190566291E6B29006532B6 /* SendbirdAppCenterSampleTests.swift */,
+			);
+			path = SendbirdAppCenterSampleTests;
+			sourceTree = "<group>";
+		};
+		5F19056F291E6B29006532B6 /* SendbirdAppCenterSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5F190570291E6B29006532B6 /* SendbirdAppCenterSampleUITests.swift */,
+				5F190572291E6B29006532B6 /* SendbirdAppCenterSampleUITestsLaunchTests.swift */,
+			);
+			path = SendbirdAppCenterSampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F19054B291E6B28006532B6 /* SendbirdAppCenterSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F190576291E6B29006532B6 /* Build configuration list for PBXNativeTarget "SendbirdAppCenterSample" */;
+			buildPhases = (
+				5F190548291E6B28006532B6 /* Sources */,
+				5F190549291E6B28006532B6 /* Frameworks */,
+				5F19054A291E6B28006532B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SendbirdAppCenterSample;
+			productName = SendbirdAppCenterSample;
+			productReference = 5F19054C291E6B28006532B6 /* SendbirdAppCenterSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F190561291E6B29006532B6 /* SendbirdAppCenterSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F190579291E6B29006532B6 /* Build configuration list for PBXNativeTarget "SendbirdAppCenterSampleTests" */;
+			buildPhases = (
+				5F19055E291E6B29006532B6 /* Sources */,
+				5F19055F291E6B29006532B6 /* Frameworks */,
+				5F190560291E6B29006532B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F190564291E6B29006532B6 /* PBXTargetDependency */,
+			);
+			name = SendbirdAppCenterSampleTests;
+			productName = SendbirdAppCenterSampleTests;
+			productReference = 5F190562291E6B29006532B6 /* SendbirdAppCenterSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5F19056B291E6B29006532B6 /* SendbirdAppCenterSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F19057C291E6B29006532B6 /* Build configuration list for PBXNativeTarget "SendbirdAppCenterSampleUITests" */;
+			buildPhases = (
+				5F190568291E6B29006532B6 /* Sources */,
+				5F190569291E6B29006532B6 /* Frameworks */,
+				5F19056A291E6B29006532B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F19056E291E6B29006532B6 /* PBXTargetDependency */,
+			);
+			name = SendbirdAppCenterSampleUITests;
+			productName = SendbirdAppCenterSampleUITests;
+			productReference = 5F19056C291E6B29006532B6 /* SendbirdAppCenterSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F190544291E6B28006532B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					5F19054B291E6B28006532B6 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					5F190561291E6B29006532B6 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 5F19054B291E6B28006532B6;
+					};
+					5F19056B291E6B29006532B6 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 5F19054B291E6B28006532B6;
+					};
+				};
+			};
+			buildConfigurationList = 5F190547291E6B28006532B6 /* Build configuration list for PBXProject "SendbirdAppCenterSample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F190543291E6B28006532B6;
+			productRefGroup = 5F19054D291E6B28006532B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F19054B291E6B28006532B6 /* SendbirdAppCenterSample */,
+				5F190561291E6B29006532B6 /* SendbirdAppCenterSampleTests */,
+				5F19056B291E6B29006532B6 /* SendbirdAppCenterSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F19054A291E6B28006532B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F19055C291E6B29006532B6 /* LaunchScreen.storyboard in Resources */,
+				5F190559291E6B29006532B6 /* Assets.xcassets in Resources */,
+				5F190557291E6B28006532B6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F190560291E6B29006532B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F19056A291E6B29006532B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F190548291E6B28006532B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F190554291E6B28006532B6 /* ViewController.swift in Sources */,
+				5F190550291E6B28006532B6 /* AppDelegate.swift in Sources */,
+				5F190552291E6B28006532B6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F19055E291E6B29006532B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F190567291E6B29006532B6 /* SendbirdAppCenterSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F190568291E6B29006532B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F190573291E6B29006532B6 /* SendbirdAppCenterSampleUITestsLaunchTests.swift in Sources */,
+				5F190571291E6B29006532B6 /* SendbirdAppCenterSampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F190564291E6B29006532B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F19054B291E6B28006532B6 /* SendbirdAppCenterSample */;
+			targetProxy = 5F190563291E6B29006532B6 /* PBXContainerItemProxy */;
+		};
+		5F19056E291E6B29006532B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F19054B291E6B28006532B6 /* SendbirdAppCenterSample */;
+			targetProxy = 5F19056D291E6B29006532B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F190555291E6B28006532B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F190556291E6B28006532B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F19055A291E6B29006532B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F19055B291E6B29006532B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F190574291E6B29006532B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5F190575291E6B29006532B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F190577291E6B29006532B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SendbirdAppCenterSample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sendbird.sample.SendbirdAppCenterSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F190578291E6B29006532B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SendbirdAppCenterSample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sendbird.sample.SendbirdAppCenterSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5F19057A291E6B29006532B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sendbird.sample.SendbirdAppCenterSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SendbirdAppCenterSample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SendbirdAppCenterSample";
+			};
+			name = Debug;
+		};
+		5F19057B291E6B29006532B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sendbird.sample.SendbirdAppCenterSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SendbirdAppCenterSample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SendbirdAppCenterSample";
+			};
+			name = Release;
+		};
+		5F19057D291E6B29006532B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sendbird.sample.SendbirdAppCenterSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SendbirdAppCenterSample;
+			};
+			name = Debug;
+		};
+		5F19057E291E6B29006532B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sendbird.sample.SendbirdAppCenterSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SendbirdAppCenterSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F190547291E6B28006532B6 /* Build configuration list for PBXProject "SendbirdAppCenterSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F190574291E6B29006532B6 /* Debug */,
+				5F190575291E6B29006532B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F190576291E6B29006532B6 /* Build configuration list for PBXNativeTarget "SendbirdAppCenterSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F190577291E6B29006532B6 /* Debug */,
+				5F190578291E6B29006532B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F190579291E6B29006532B6 /* Build configuration list for PBXNativeTarget "SendbirdAppCenterSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F19057A291E6B29006532B6 /* Debug */,
+				5F19057B291E6B29006532B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F19057C291E6B29006532B6 /* Build configuration list for PBXNativeTarget "SendbirdAppCenterSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F19057D291E6B29006532B6 /* Debug */,
+				5F19057E291E6B29006532B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F190544291E6B28006532B6 /* Project object */;
+}
