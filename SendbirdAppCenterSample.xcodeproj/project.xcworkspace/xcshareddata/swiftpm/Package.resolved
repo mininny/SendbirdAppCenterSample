@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/sendbird/sendbird-chat-sdk-ios",
       "state" : {
-        "branch" : "master",
-        "revision" : "427986a9aa859c977a781948bd87ba7510c956b4"
+        "revision" : "427986a9aa859c977a781948bd87ba7510c956b4",
+        "version" : "4.1.5"
       }
     }
   ],
