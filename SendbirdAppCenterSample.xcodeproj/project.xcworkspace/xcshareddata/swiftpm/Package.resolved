@@ -1,12 +1,12 @@
 {
   "pins" : [
     {
-      "identity" : "sendbird-chat-sdk-ios",
+      "identity" : "chatsdkwrapper",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/sendbird/sendbird-chat-sdk-ios",
+      "location" : "https://github.com/mininny/ChatSDKWrapper",
       "state" : {
-        "revision" : "427986a9aa859c977a781948bd87ba7510c956b4",
-        "version" : "4.1.5"
+        "branch" : "main",
+        "revision" : "9ff1d362bffc577b021fdcb7de50004a878d7e90"
       }
     }
   ],
